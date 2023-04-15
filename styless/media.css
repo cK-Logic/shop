@@ -1,0 +1,75 @@
+
+
+@media (max-width: 1177px) {
+  html p {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 867px) {
+  #hats,
+  #pants,
+  #shoes,
+  #t-shirts {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+  }
+
+  #welcomecon {
+    display: none;
+  }
+}
+
+@media (max-width: 823px) {
+  nav {
+    display: none;
+  }
+
+  #menuicone {
+    display: block;
+  }
+}
+
+@media (max-width: 513px) {
+  #hats,
+  #pants,
+  #shoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #t-shirts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
+
+/* drop dowm menu when the screen get small */
+
+.showdropdowm {
+  position: absolute;
+  position: fixed;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: 15rem;
+  z-index: 300;
+  margin-top: 5rem;
+  border: 0px solid #000;
+  border-bottom-width: 1px;
+  display: block;
+  text-shadow: 5px 5px 5px rgba(255, 255, 255, .5);
+}
+
+.show_showdropdowm {
+  display: none;
+}
+
+li {
+  margin-top: 2rem;
+  padding-left: 1rem;
+}

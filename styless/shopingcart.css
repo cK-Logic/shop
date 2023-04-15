@@ -1,0 +1,72 @@
+
+
+.popupcontainer {
+  position: relative;
+  position: absolute;
+  position: fixed;
+  background: #303030;
+  right: 0;
+  height: 100%;
+  width: 15rem;
+  padding: 6rem 1rem 0;
+  z-index: 2;
+  border: 0 solid black;
+  border-left-width: 1px;
+  display: block;
+  overflow-y: auto;
+  row-gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateX(100%);
+  transition: .5s ease;
+}
+
+.show-popupcontainer {
+  transform: translateX(0%);
+}
+
+h3 {
+  text-align: center;
+}
+
+#btn {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #fff;
+  background: var(--main-color);
+}
+
+.popupcontainer img {
+  border-radius: 5px;
+  width: 5rem;
+  height: 5rem;
+}
+
+
+
+.addmore {
+  background: #505050;
+  border-radius: 10px;
+  padding-left: .4rem;
+  width: 100%;
+  height: 78%;
+  overflow-y: scroll;
+}
+
+.addmore::-webkit-scrollbar {
+  width: 1px;
+}
+
+
+.remove-button {
+  background: var(--main-color);
+  color: var(--text-color);
+  padding: .2rem .6rem;
+  margin-bottom: 1rem;
+}

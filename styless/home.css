@@ -1,0 +1,62 @@
+
+
+.homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.homepage h1 {
+  margin-bottom: 5rem;
+  text-align: center;
+  font-size: 440%;
+}
+
+.homepage p{
+  line-height: 2rem;
+}
+
+/* waves for the top side */
+.custom-shape-divider-top-1681203710 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1681203710 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 274px;
+}
+
+.custom-shape-divider-top-1681203710 .shape-fill {
+  fill: #592AFF;
+}
+
+
+/* this is the wave for the bottom side */
+.custom-shape-divider-bottom-1681203593 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1681203593 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 198px;
+}
+
+.custom-shape-divider-bottom-1681203593 .shape-fill {
+  fill: #592AFF;
+}
